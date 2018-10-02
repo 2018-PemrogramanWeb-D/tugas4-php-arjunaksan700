@@ -1,7 +1,6 @@
 <?php
  session_start();
 
- // cek apakau user sudah login
  if($_SESSION['login'] == false){
   header('Location: index.php');
  }
@@ -9,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CARA MEMBUAT LOGIN DENGAN SESSION DI PHP</title>
+<title>HOME</title>
 <style type="text/css">
 	body { 
 		font-family: Verdana; font-size: 14px; background-image: url(ok.jpg); background-size: 100%; }
